@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(43, 56%, 90%);
+    color: #1f1f1f
+}
+
+header {
+    background-color: #48392A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.presentacion h2 {
+    color: #48392A;
+    font-size: 2rem;
+}
