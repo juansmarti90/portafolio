@@ -1,5 +1,4 @@
 
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -13,14 +12,12 @@ body {
     line-height: 1.6;
 }
 
-/* Contenedor general */
 .container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Encabezado */
 header {
     background-color: #1e1e1e;
     padding: 20px;
@@ -46,7 +43,6 @@ nav a:hover {
     color: #ffa040;
 }
 
-/* Sección de presentación */
 .presentacion {
     height: 90vh;
     display: flex;
@@ -70,7 +66,6 @@ nav a:hover {
     color: #ccc;
 }
 
-/* Call to Action */
 .cta {
     display: inline-block;
     background-color: #ff6f00;
@@ -86,7 +81,6 @@ nav a:hover {
     background-color: #ffa040;
 }
 
-/* Sección Sobre mí */
 .sobremi {
     display: flex;
     flex-wrap: wrap;
@@ -118,7 +112,6 @@ nav a:hover {
     color: #ccc;
 }
 
-/* Sección Proyectos */
 .proyectos {
     padding: 4rem 2rem;
     background-color: #181818;
@@ -179,7 +172,6 @@ nav a:hover {
     font-size: 0.85rem;
 }
 
-/* Footer */
 .footer {
     background-color: #1e1e1e;
     color: #fff;
@@ -203,7 +195,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-/* Responsive ajustes */
+
 @media (max-width: 768px) {
     .sobremi {
         flex-direction: column;
